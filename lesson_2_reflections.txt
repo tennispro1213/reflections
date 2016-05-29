@@ -7,3 +7,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 	We can git add the related files and check their changes using git diff before commiting with an appropriate message.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	When we need to experiment, translate, or use the files differently, but also continue to work on the original files. Branches prevent messes and confusion that could arise by using different commits and having to switch back and forth between them.
+How do the diagrams help you visualize the branch structure?
+	Diagrams are easier to understand and make it easier to physically trace paths along them to learn about and navigate branches.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The two branches join together and their commits sort according to timestamps. The diagram accurately shows that the resulting merged branch can refernce the commits of both branches.
